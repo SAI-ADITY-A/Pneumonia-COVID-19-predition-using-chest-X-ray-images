@@ -21,6 +21,7 @@ Rescaled image pixel values to the range [0, 1] using ImageDataGenerator.
 ### 3. Model Architecture (ResNet50)
 We employed the ResNet50 architecture, which is pre-trained on the ImageNet dataset, as the base model.
 Fine-tuned the model by adding custom layers for the chest X-ray classification task.
+
 Key Layers:
 Global Average Pooling
 Fully Connected Dense Layer (512 units)
@@ -41,3 +42,11 @@ Confusion matrix plotted to understand how well the model performed in different
 Accuracy and loss curves for training and validation were plotted to visualize model performance over epochs.
 Confusion matrix plotted to understand how well the model performed in differentiating between the three classes.
 Accuracy and loss curves for training and validation were plotted to visualize model performance over epochs.
+
+
+## Future Work
+Experiment with different deep learning architectures like VGG16, InceptionV3, etc.
+
+Add cross-validation for more robust model performance.
+
+Hyperparameter tuning for further improvements in accuracy and generalization.
